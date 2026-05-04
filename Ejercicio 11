@@ -1,0 +1,19 @@
+{
+    int[] numeros = new int[3] { 1, 2, 3 };
+    void Start()
+    {
+        string mayor = numeros[0] > numeros[1] ? "el numero en la posicion 0 es mayor que el numero en la posicion 1" : "el numero en la posicion 1 es mayor que el numero en la posicion 0";
+
+        Debug.Log( mayor);
+
+     
+
+
+    }
+
+   
+    void Update()
+    {
+        
+    }
+}
