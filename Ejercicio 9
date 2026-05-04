@@ -1,0 +1,22 @@
+{
+   
+    List<string> nombres = new List<string>();
+
+    void Start()
+    {
+        nombres.Add("pepe");
+        nombres.Add("maliketh");
+        nombres.Add("jacinta");
+
+        nombres.Remove("pepe");
+
+        Debug.Log(nombres.Count);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
