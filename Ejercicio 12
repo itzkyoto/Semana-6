@@ -1,0 +1,19 @@
+{
+   int[] numeros = new int[4] {1,2,3,1 };
+    
+    void Start()
+    {
+       
+        string resultado = numeros[0] == numeros[3] ? "el numero en la posicion 0 y 3 son iguales": "los numeros en la posicion 0 y 3 no son iguales";
+        
+
+        Debug.Log(resultado);
+    
+    }
+
+    
+    void Update()
+    {
+        
+    }
+}
