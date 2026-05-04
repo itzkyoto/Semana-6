@@ -1,0 +1,23 @@
+{
+int[] numeros = new int[3] { 20,40,50  };
+
+    void Start()
+    {
+
+        //-> 20 , 50
+        int numeroDeMiEx = numeros[0];
+        numeros[0] = numeros[2];//->50,50
+        numeros[2] = numeroDeMiEx;// se igual al numero 0 antes de que sea remplazado por el numero 2
+
+        Debug.Log(numeros[0]);
+        Debug.Log(numeros[2]);
+
+
+    }
+
+    
+    void Update()
+    {
+        
+    }
+}
