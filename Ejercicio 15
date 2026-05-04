@@ -1,0 +1,23 @@
+{
+    
+    List<string> nombres = new List<string>();
+
+   public string maliketh = "maliketh";
+
+    void Start()
+    {
+        nombres.Add("juanito");
+        nombres.Add("maliketh");
+        nombres.Add("pepe");
+
+        string iguales = nombres[0] == maliketh ? "el nombre en la primera pocision no es igual a ningun valor" : "el nombre en la posicion 1 si es igual a un valor especifico";
+
+        Debug.Log(iguales);
+    }
+
+    
+    void Update()
+    {
+        
+    }
+}
